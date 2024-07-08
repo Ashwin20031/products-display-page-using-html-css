@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgb(220, 220, 220);
+    z-index: 9999;
+}
+
+nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.logo{
+    width:6rem;
+    height: 2rem;
+    object-fit: cover;
+}
+
+
+li{
+    list-style: none;
+}
+
+.product-container{
+    margin-top: 7rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    display: flex;
+    border-radius: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.top,.bottom{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-card img{
+    width: 17rem;
+    height: 10rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.product-card button{
+
+    background-color: blueviolet;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: rgb(249, 249, 249);
+
+}
